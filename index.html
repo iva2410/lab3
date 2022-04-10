@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Galerija</title>
+	
+	<script type='text/javascript' src='js/jquery-11.0.min.js'></script>	
+	<script type='text/javascript' src='js/unitegallery.min.js'></script>
+	<link rel='stylesheet' href='css/unite-gallery.css' type='text/css' />
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<script src="js/bootstrap.min.js"></script> 
+	<script type='text/javascript' src='js/ug-theme-tiles.js'></script>
+	
+</head>
+<body>
+	<h1>Galerija</h1>
+	<div id="poke" style="display:none">
+		
+		<a href="1.html">
+		<img alt="Svajcarska"
+		     src="slike/1.jpg"
+		     data-image="slike/1.jpg"
+		     data-description="Svajcarska"
+		     style="display:none">
+		</a>
+		
+		<a href="2.html">
+		<img alt="Srbija"
+		     src="slike/2.jpg"
+		     data-image="slike/2.jpg"
+		     data-description="Srbija"
+		     style="display:none">
+		</a>
+		
+		<a href="3.html">
+		<img alt="Italija"
+		     src="slike/3.jpg"
+		     data-image="slike/3.jpg"
+		     data-description="Italija"
+		     style="display:none">
+		</a>
+		
+		<a href="4.html">
+		<img alt="Spanija"
+		     src="slike/4.jpg"
+		     data-image="slike/4.jpg"
+		     data-description="Spanija"
+		     style="display:none">
+		</a>
+		
+		<a href="5.html">
+		<img alt="Nemacka"
+		     src="slike/5.jpg"
+		     data-image="slike/5.jpg"
+		     data-description="Nemacka"
+		     style="display:none">
+		</a>
+		
+		<a href="6.html">
+		<img alt="Francuska"
+		     src="slike/6.jpg"
+		     data-image="slike/6.jpg"
+		     data-description="Francuska"
+		     style="display:none">
+		</a>
+		
+		<a href="7.html">
+		<img alt="Madjarska"
+		     src="slike/7.jpg"
+		     data-image="slike/7.jpg"
+		     data-description="Madjarska"
+		     style="display:none">
+		</a>
+		
+		<a href="8.html">
+		<img alt="Austrija"
+		     src="slike/8.jpg"
+		     data-image="slike/8.jpg"
+		     data-description="Austrija"
+		     style="display:none">
+		</a>
+		
+		<a href="9.html">
+		<img alt="Hrvatska"
+		     src="slike/9.jpg"
+		     data-image="slike/9.jpg"
+		     data-description="Hrvatska"
+		     style="display:none">
+		</a>
+		
+		<a href="10.html">
+		<img alt="Ceska"
+		     src="slike/10.jpg"
+		     data-image="slike/10.jpg"
+		     data-description="Ceska"
+		     style="display:none">
+		</a>
+		
+	</div>
+	
+	<script type="text/javascript">
+
+		jQuery(document).ready(function(){
+
+			jQuery("#poke").unitegallery({
+				tile_border_color:"#614051", 
+				tile_outline_color:"#614051",
+				tile_enable_shadow:true,
+				tile_shadow_color:"#614051",
+				tile_overlay_opacity:0.3,
+				tile_enable_icons: true,
+				tile_show_link_icon: true,
+				tile_space_between_icons: 26,
+				tile_image_effect_type:"sepia",
+				tile_image_effect_reverse:true,
+				tile_enable_textpanel:true,
+				tile_textpanel_title_text_align: "center",
+				tile_textpanel_always_on:true,
+				lightbox_textpanel_title_color:"e5e5e5",
+				tiles_col_width:300,
+				tiles_space_between_cols:5				
+			});
+
+		});
+		
+	</script>
+</body>
+</html>
